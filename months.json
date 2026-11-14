@@ -1,0 +1,928 @@
+{
+  "copy": {
+    "mainTitle": "이번 달엔 이게 제철이에요",
+    "sectionIngredients": "{m}월 제철 식재료",
+    "cardButton": "레시피 보기 →",
+    "detailTop": "{m}월 제철",
+    "inSeasonChip": "지금이 제철",
+    "sectionRecipes": "{name}로 이런 걸 만들 수 있어요",
+    "kcalBasis": "1인분 기준",
+    "lightestBadge": "가장 가벼워요",
+    "infoBoxTitle": "{name} · 지금이 제철이에요",
+    "infoBoxSub": "제철 {season} · {taste}",
+    "sectionParts": "재료",
+    "sectionSteps": "만드는 법",
+    "emptyRecipes": "아직 레시피가 없어요",
+    "emptyRecipesSub": "다른 재료부터 둘러볼까요?",
+    "cardNoRecipe": "레시피 준비 중",
+    "noKcal": "칼로리 정보 없음",
+    "noSteps": "만드는 법 준비 중이에요",
+    "emptyMonth": "{m}월 재료를 준비하고 있어요",
+    "loading": "이번 달 식탁을 차리는 중…",
+    "error": "식탁이 아직 안 차려졌어요",
+    "errorSub": "잠시 후 다시 열어주세요"
+  },
+  "1": {
+    "season": "winter",
+    "headline": "추울수록 달아지는 겨울",
+    "ingredients": [
+      {
+        "name": "당근",
+        "type": "채소",
+        "color": "주황",
+        "bg": "#FDE3CC",
+        "img": "",
+        "cardCopy": "겨울이라 더 달아요",
+        "taste": "추운 땅에서 단맛을 모아온 겨울 당근",
+        "health": "베타카로틴이 가득함",
+        "seasonMonths": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "seasonText": "12–3월",
+        "keyword": "당근",
+        "recipeIdeas": [
+          "당근라페",
+          "당근 수프",
+          "당근 김밥"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "시금치",
+        "type": "채소",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "눈 맞고 단단해진 초록",
+        "taste": "추위를 견딜수록 잎이 두껍고 달큰해져요",
+        "health": "철분과 엽산이 풍부함",
+        "seasonMonths": [
+          12,
+          1,
+          2
+        ],
+        "seasonText": "12–2월",
+        "keyword": "시금치",
+        "recipeIdeas": [
+          "시금치나물",
+          "시금치 된장국",
+          "시금치 프리타타"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "꼬막",
+        "type": "조개",
+        "color": "갈색",
+        "bg": "#EADBCB",
+        "img": "",
+        "cardCopy": "쫄깃한 겨울 바다",
+        "taste": "겨울 갯벌의 맛, 쫄깃하고 짭조름해요",
+        "health": "작지만 철분이 알참",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "seasonText": "11–3월",
+        "keyword": "꼬막",
+        "recipeIdeas": [
+          "꼬막무침",
+          "꼬막비빔밥",
+          "꼬막전"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "2": {
+    "season": "winter",
+    "headline": "봄이 먼저 오는 식탁",
+    "ingredients": [
+      {
+        "name": "봄동",
+        "type": "채소",
+        "color": "연초록",
+        "bg": "#E6F2D9",
+        "img": "",
+        "cardCopy": "봄을 먼저 데려와요",
+        "taste": "납작 엎드려 겨울을 난 고소한 배추",
+        "health": "비타민C가 풍부함",
+        "seasonMonths": [
+          1,
+          2,
+          3
+        ],
+        "seasonText": "1–3월",
+        "keyword": "봄동",
+        "recipeIdeas": [
+          "봄동겉절이",
+          "봄동전",
+          "봄동 된장국"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "연근",
+        "type": "뿌리채소",
+        "color": "베이지",
+        "bg": "#F1E8DA",
+        "img": "",
+        "cardCopy": "구멍마다 고소함",
+        "taste": "썰면 꽃 모양, 씹으면 아삭",
+        "health": "식이섬유가 풍부함",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "seasonText": "11–3월",
+        "keyword": "연근",
+        "recipeIdeas": [
+          "연근조림",
+          "연근전",
+          "연근칩"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "대게",
+        "type": "갑각류",
+        "color": "주황",
+        "bg": "#FDE3CC",
+        "img": "",
+        "cardCopy": "살이 꽉 찬 계절",
+        "taste": "속이 가장 꽉 차는 겨울 끝, 달큰한 살",
+        "health": "담백하고 단백질이 많음",
+        "seasonMonths": [
+          1,
+          2,
+          3
+        ],
+        "seasonText": "1–3월",
+        "keyword": "게",
+        "recipeIdeas": [
+          "대게찜",
+          "대게 라면",
+          "게딱지 비빔밥"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "3": {
+    "season": "spring",
+    "headline": "땅에서 올라오는 봄",
+    "ingredients": [
+      {
+        "name": "냉이",
+        "type": "나물",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "봄 향기 한 줌",
+        "taste": "땅에서 막 올라온 쌉싸름한 봄 내음",
+        "health": "칼슘이 풍부함",
+        "seasonMonths": [
+          2,
+          3,
+          4
+        ],
+        "seasonText": "2–4월",
+        "keyword": "냉이",
+        "recipeIdeas": [
+          "냉이 된장국",
+          "냉이무침",
+          "냉이 파스타"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "주꾸미",
+        "type": "해산물",
+        "color": "자주",
+        "bg": "#EBDCEB",
+        "img": "",
+        "cardCopy": "알이 꽉 찬 봄",
+        "taste": "봄 주꾸미는 머리에 알이 가득해요",
+        "health": "지방은 적고 단백질은 많음",
+        "seasonMonths": [
+          3,
+          4,
+          5
+        ],
+        "seasonText": "3–5월",
+        "keyword": "주꾸미",
+        "recipeIdeas": [
+          "주꾸미볶음",
+          "주꾸미 샤브샤브",
+          "주꾸미 숙회"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "참돔",
+        "type": "생선",
+        "color": "분홍",
+        "bg": "#FBE1E3",
+        "img": "",
+        "cardCopy": "봄 바다의 분홍빛",
+        "taste": "벚꽃 필 무렵 살이 가장 오르는 생선",
+        "health": "기름기가 적어 소화가 편함",
+        "seasonMonths": [
+          3,
+          4,
+          5
+        ],
+        "seasonText": "3–5월",
+        "keyword": "도미",
+        "recipeIdeas": [
+          "참돔구이",
+          "참돔 솥밥",
+          "도미 맑은탕"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "4": {
+    "season": "spring",
+    "headline": "짧아서 더 귀한 봄맛",
+    "ingredients": [
+      {
+        "name": "양파",
+        "type": "채소",
+        "color": "노랑",
+        "bg": "#FBF0C9",
+        "img": "",
+        "cardCopy": "맵지 않은 햇양파",
+        "taste": "물기 많고 달큰해서 날로 먹어도 순해요",
+        "health": "익힐수록 단맛이 깊어짐",
+        "seasonMonths": [
+          4,
+          5,
+          6
+        ],
+        "seasonText": "4–6월",
+        "keyword": "양파",
+        "recipeIdeas": [
+          "양파 장아찌",
+          "양파 수프",
+          "어니언링"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "두릅",
+        "type": "나물",
+        "color": "연두",
+        "bg": "#E8F4D2",
+        "img": "",
+        "cardCopy": "봄 산의 첫 순",
+        "taste": "짧게 왔다 가는 봄 산의 향",
+        "health": "비타민이 고루 들어 있음",
+        "seasonMonths": [
+          4,
+          5
+        ],
+        "seasonText": "4–5월",
+        "keyword": "두릅",
+        "recipeIdeas": [
+          "두릅 숙회",
+          "두릅전",
+          "두릅 튀김"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "도다리",
+        "type": "생선",
+        "color": "갈색",
+        "bg": "#EADBCB",
+        "img": "",
+        "cardCopy": "봄 하면 도다리",
+        "taste": "쑥과 만나면 봄이 완성돼요",
+        "health": "지방이 적어 담백함",
+        "seasonMonths": [
+          3,
+          4,
+          5
+        ],
+        "seasonText": "3–5월",
+        "keyword": "도다리",
+        "recipeIdeas": [
+          "도다리쑥국",
+          "도다리 세꼬시",
+          "도다리조림"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "5": {
+    "season": "spring",
+    "headline": "갓 캐낸 늦봄의 맛",
+    "ingredients": [
+      {
+        "name": "마늘",
+        "type": "채소",
+        "color": "흰",
+        "bg": "#F3F1EC",
+        "img": "",
+        "cardCopy": "알싸하고 촉촉하게",
+        "taste": "갓 캐낸 햇마늘은 맵기보다 촉촉해요",
+        "health": "알싸한 알리신이 들어 있음",
+        "seasonMonths": [
+          5,
+          6
+        ],
+        "seasonText": "5–6월",
+        "keyword": "마늘",
+        "recipeIdeas": [
+          "마늘 장아찌",
+          "통마늘 구이",
+          "알리오 올리오"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "완두콩",
+        "type": "콩류",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "톡톡 터지는 초록",
+        "taste": "꼬투리에서 막 꺼낸 달고 포슬한 콩",
+        "health": "식물성 단백질이 풍부함",
+        "seasonMonths": [
+          5,
+          6
+        ],
+        "seasonText": "5–6월",
+        "keyword": "완두콩",
+        "recipeIdeas": [
+          "완두콩밥",
+          "완두콩 수프",
+          "완두콩전"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "멍게",
+        "type": "해산물",
+        "color": "주홍",
+        "bg": "#FDDCCB",
+        "img": "",
+        "cardCopy": "바다 향 그대로",
+        "taste": "여름 오기 전 가장 달큰한 바다의 맛",
+        "health": "열량은 낮고 미네랄은 풍부함",
+        "seasonMonths": [
+          4,
+          5,
+          6
+        ],
+        "seasonText": "4–6월",
+        "keyword": "멍게",
+        "recipeIdeas": [
+          "멍게비빔밥",
+          "멍게무침",
+          "멍게젓"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "6": {
+    "season": "summer",
+    "headline": "싱그러운 초여름",
+    "ingredients": [
+      {
+        "name": "방울토마토",
+        "type": "채소",
+        "color": "빨강",
+        "bg": "#FBDAD6",
+        "img": "",
+        "cardCopy": "한 입에 여름",
+        "taste": "볕을 머금고 새콤달콤 터지는 작은 여름",
+        "health": "라이코펜이 들어 있음",
+        "seasonMonths": [
+          6,
+          7,
+          8
+        ],
+        "seasonText": "6–8월",
+        "keyword": "토마토",
+        "recipeIdeas": [
+          "토마토 마리네이드",
+          "카프레제",
+          "토마토 달걀볶음"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "애호박",
+        "type": "채소",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "여름 반찬의 기본",
+        "taste": "부드럽고 달큰해서 어디에나 어울려요",
+        "health": "부드러워 소화가 잘됨",
+        "seasonMonths": [
+          6,
+          7,
+          8
+        ],
+        "seasonText": "6–8월",
+        "keyword": "애호박",
+        "recipeIdeas": [
+          "애호박전",
+          "애호박볶음",
+          "애호박 된장찌개"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "전복",
+        "type": "해산물",
+        "color": "회갈색",
+        "bg": "#E6E0D8",
+        "img": "",
+        "cardCopy": "여름 보양의 시작",
+        "taste": "살이 통통하게 오른 바다의 귀한 맛",
+        "health": "단백질이 풍부한 보양식임",
+        "seasonMonths": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "seasonText": "6–9월",
+        "keyword": "전복",
+        "recipeIdeas": [
+          "전복죽",
+          "전복 버터구이",
+          "전복 솥밥"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "7": {
+    "season": "summer",
+    "headline": "맛있게 이기는 더위",
+    "ingredients": [
+      {
+        "name": "옥수수",
+        "type": "곡물",
+        "color": "노랑",
+        "bg": "#FBF0C9",
+        "img": "",
+        "cardCopy": "찰지게 톡톡",
+        "taste": "갓 딴 여름 옥수수는 쪄만 먹어도 달아요",
+        "health": "식이섬유가 많아 든든함",
+        "seasonMonths": [
+          7,
+          8
+        ],
+        "seasonText": "7–8월",
+        "keyword": "옥수수",
+        "recipeIdeas": [
+          "찐 옥수수",
+          "옥수수 버터구이",
+          "콘 샐러드"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "오이",
+        "type": "채소",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "더위엔 아삭하게",
+        "taste": "수분 가득, 한여름 입안을 식혀줘요",
+        "health": "수분이 많아 갈증을 덜어줌",
+        "seasonMonths": [
+          6,
+          7,
+          8
+        ],
+        "seasonText": "6–8월",
+        "keyword": "오이",
+        "recipeIdeas": [
+          "오이냉국",
+          "오이소박이",
+          "오이무침"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "장어",
+        "type": "생선",
+        "color": "흑갈색",
+        "bg": "#E2D9D0",
+        "img": "",
+        "cardCopy": "여름 기운 충전",
+        "taste": "기름진 살이 고소한 한여름 보양식",
+        "health": "비타민A가 풍부함",
+        "seasonMonths": [
+          6,
+          7,
+          8
+        ],
+        "seasonText": "6–8월",
+        "keyword": "장어",
+        "recipeIdeas": [
+          "장어구이",
+          "장어덮밥",
+          "장어탕"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "8": {
+    "season": "summer",
+    "headline": "볕을 가득 머금은 달",
+    "ingredients": [
+      {
+        "name": "홍고추",
+        "type": "채소",
+        "color": "빨강",
+        "bg": "#FBDAD6",
+        "img": "",
+        "cardCopy": "빨갛게 익은 여름",
+        "taste": "볕 아래 붉게 익어 매콤함이 깊어졌어요",
+        "health": "비타민C가 풍부함",
+        "seasonMonths": [
+          8,
+          9
+        ],
+        "seasonText": "8–9월",
+        "keyword": "고추",
+        "recipeIdeas": [
+          "고추장아찌",
+          "고추잡채",
+          "홍고추 다대기"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "가지",
+        "type": "채소",
+        "color": "보라",
+        "bg": "#E7DDF0",
+        "img": "",
+        "cardCopy": "보랏빛 부드러움",
+        "taste": "구우면 녹아내리듯 부드러워요",
+        "health": "껍질에 안토시아닌이 있음",
+        "seasonMonths": [
+          7,
+          8,
+          9
+        ],
+        "seasonText": "7–9월",
+        "keyword": "가지",
+        "recipeIdeas": [
+          "가지나물",
+          "가지구이",
+          "가지덮밥"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "갈치",
+        "type": "생선",
+        "color": "은색",
+        "bg": "#E5E9EE",
+        "img": "",
+        "cardCopy": "은빛 바다",
+        "taste": "한여름 바다에서 온 반짝이는 생선",
+        "health": "오메가-3가 들어 있음",
+        "seasonMonths": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "seasonText": "7–10월",
+        "keyword": "갈치",
+        "recipeIdeas": [
+          "갈치구이",
+          "갈치조림",
+          "갈치국"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "9": {
+    "season": "autumn",
+    "headline": "입맛이 바뀌는 계절",
+    "ingredients": [
+      {
+        "name": "깻잎",
+        "type": "채소",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "향으로 먼저 와요",
+        "taste": "한 장만 넣어도 식탁에 향이 퍼져요",
+        "health": "철분이 풍부함",
+        "seasonMonths": [
+          7,
+          8,
+          9
+        ],
+        "seasonText": "7–9월",
+        "keyword": "깻잎",
+        "recipeIdeas": [
+          "깻잎 장아찌",
+          "깻잎전",
+          "깻잎 페스토"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "토란",
+        "type": "뿌리채소",
+        "color": "갈색",
+        "bg": "#EADBCB",
+        "img": "",
+        "cardCopy": "추석의 맛",
+        "taste": "'알토란 같다'는 말이 괜히 나온 게 아니에요",
+        "health": "식이섬유가 많아 속이 편함",
+        "seasonMonths": [
+          9,
+          10
+        ],
+        "seasonText": "9–10월",
+        "keyword": "토란",
+        "recipeIdeas": [
+          "토란국",
+          "토란 들깨탕",
+          "토란조림"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "꽃게",
+        "type": "갑각류",
+        "color": "주황",
+        "bg": "#FDE3CC",
+        "img": "",
+        "cardCopy": "가을 꽃게는 살",
+        "taste": "가을엔 수꽃게, 살이 꽉 차 있어요",
+        "health": "지방은 적고 단백질은 많음",
+        "seasonMonths": [
+          9,
+          10,
+          11
+        ],
+        "seasonText": "9–11월",
+        "keyword": "꽃게",
+        "recipeIdeas": [
+          "꽃게탕",
+          "간장게장",
+          "꽃게찜"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "10": {
+    "season": "autumn",
+    "headline": "굽는 냄새부터 가을",
+    "ingredients": [
+      {
+        "name": "고구마",
+        "type": "뿌리채소",
+        "color": "자주",
+        "bg": "#EBDCEB",
+        "img": "",
+        "cardCopy": "호호 불어 먹는 계절",
+        "taste": "캐서 숙성할수록 더 달아져요",
+        "health": "식이섬유가 많아 든든함",
+        "seasonMonths": [
+          9,
+          10,
+          11
+        ],
+        "seasonText": "9–11월",
+        "keyword": "고구마",
+        "recipeIdeas": [
+          "군고구마",
+          "고구마 맛탕",
+          "고구마 라떼"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "송이버섯",
+        "type": "버섯",
+        "color": "베이지",
+        "bg": "#F1E8DA",
+        "img": "",
+        "cardCopy": "가을 산의 향",
+        "taste": "가을 산에서 짧게 만나는 귀한 향",
+        "health": "열량이 낮음",
+        "seasonMonths": [
+          9,
+          10
+        ],
+        "seasonText": "9–10월",
+        "keyword": "버섯",
+        "recipeIdeas": [
+          "송이구이",
+          "송이 솥밥",
+          "송이 된장국"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "전어",
+        "type": "생선",
+        "color": "은청색",
+        "bg": "#DFE7EF",
+        "img": "",
+        "cardCopy": "집 나간 며느리도",
+        "taste": "고소함이 절정, 굽는 냄새부터 가을",
+        "health": "뼈째 먹으면 칼슘까지 챙김",
+        "seasonMonths": [
+          9,
+          10
+        ],
+        "seasonText": "9–10월",
+        "keyword": "전어",
+        "recipeIdeas": [
+          "전어구이",
+          "전어회무침",
+          "전어 초밥"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "11": {
+    "season": "autumn",
+    "headline": "천천히 익은 단맛",
+    "ingredients": [
+      {
+        "name": "늙은 호박",
+        "type": "채소",
+        "color": "주황",
+        "bg": "#FDE3CC",
+        "img": "",
+        "cardCopy": "천천히 익은 단맛",
+        "taste": "한 해 볕을 다 머금은 묵직한 단맛",
+        "health": "베타카로틴이 풍부함",
+        "seasonMonths": [
+          10,
+          11,
+          12
+        ],
+        "seasonText": "10–12월",
+        "keyword": "호박",
+        "recipeIdeas": [
+          "호박죽",
+          "호박전",
+          "호박 수프"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "배추",
+        "type": "채소",
+        "color": "연초록",
+        "bg": "#E6F2D9",
+        "img": "",
+        "cardCopy": "김장의 주인공",
+        "taste": "찬바람에 속이 차고 고소해졌어요",
+        "health": "열량은 낮고 비타민C는 풍부함",
+        "seasonMonths": [
+          11,
+          12
+        ],
+        "seasonText": "11–12월",
+        "keyword": "배추",
+        "recipeIdeas": [
+          "배추전",
+          "배추 겉절이",
+          "배추 된장국"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "굴",
+        "type": "조개",
+        "color": "회백색",
+        "bg": "#ECEBE7",
+        "img": "",
+        "cardCopy": "바다의 우유",
+        "taste": "찬물에서 통통하게 차오른 겨울 굴",
+        "health": "아연이 풍부함",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "seasonText": "11–2월",
+        "keyword": "굴",
+        "recipeIdeas": [
+          "굴전",
+          "굴국밥",
+          "굴무침"
+        ],
+        "recipes": []
+      }
+    ]
+  },
+  "12": {
+    "season": "winter",
+    "headline": "따뜻한 마지막 식탁",
+    "ingredients": [
+      {
+        "name": "브로콜리",
+        "type": "채소",
+        "color": "초록",
+        "bg": "#DDEFD6",
+        "img": "",
+        "cardCopy": "겨울에 더 단단해요",
+        "taste": "추위 속에 송이가 단단하고 달아져요",
+        "health": "비타민C가 가득함",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "seasonText": "11–3월",
+        "keyword": "브로콜리",
+        "recipeIdeas": [
+          "브로콜리 숙회",
+          "브로콜리 수프",
+          "브로콜리 볶음"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "홍합",
+        "type": "조개",
+        "color": "검푸른",
+        "bg": "#DDE3EC",
+        "img": "",
+        "cardCopy": "국물 한 그릇",
+        "taste": "찬바람 불 때 생각나는 뽀얀 국물",
+        "health": "철분이 풍부함",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "seasonText": "11–2월",
+        "keyword": "홍합",
+        "recipeIdeas": [
+          "홍합탕",
+          "홍합 파스타",
+          "홍합찜"
+        ],
+        "recipes": []
+      },
+      {
+        "name": "삼치",
+        "type": "생선",
+        "color": "청은색",
+        "bg": "#DEE6EF",
+        "img": "",
+        "cardCopy": "기름 오른 겨울",
+        "taste": "겨울에 살이 차올라 부드럽고 고소해요",
+        "health": "DHA가 풍부함",
+        "seasonMonths": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "seasonText": "11–2월",
+        "keyword": "삼치",
+        "recipeIdeas": [
+          "삼치구이",
+          "삼치 데리야끼",
+          "삼치조림"
+        ],
+        "recipes": []
+      }
+    ]
+  }
+}
