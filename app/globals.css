@@ -66,6 +66,9 @@
   --color-card-8: var(--color-card-8);
   --color-card-9: var(--color-card-9);
   --color-card-10: var(--color-card-10);
+
+  /* 식재료 상세 화면 맨 위 그림 크기 (192px). text-hero-icon 클래스로 써요 */
+  --text-hero-icon: 12rem;
 }
 
 body {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BackLink } from "@/components/BackLink";
 import { PlaceholderPhoto } from "@/components/PlaceholderPhoto";
 import { IngredientIcon } from "@/components/IngredientIcon";
@@ -20,11 +21,23 @@ export function IngredientDetailHeader({ ingredient, month }: IngredientDetailHe
       </div>
 
       <div className="mt-2 flex flex-col items-center gap-1 text-center">
-        <PlaceholderPhoto
-          emoji={<IngredientIcon ingredient={ingredient} />}
-          label={`${ingredient.name} 사진`}
-          className="flex size-24 items-center justify-center text-6xl"
-        />
+        {ingredient.image ? (
+          // 그림이 있으면 192px 틀을 꽉 채워서 보여줘요.
+          <Image
+            src={ingredient.image}
+            alt={ingredient.name}
+            width={800}
+            height={800}
+            fetchPriority="high"
+            className="size-48 object-contain"
+          />
+        ) : (
+          <PlaceholderPhoto
+            emoji={<IngredientIcon ingredient={ingredient} />}
+            label={`${ingredient.name} 사진`}
+            className="flex size-48 items-center justify-center text-hero-icon"
+          />
+        )}
         <h1 className="text-3xl font-extrabold text-ink">{ingredient.name}</h1>
         <p className="text-sm text-ink-muted">{ingredient.description}</p>
         <span className="mt-1 inline-flex items-center gap-1.5 rounded-full bg-brand-900 px-4 py-1.5 text-sm font-semibold text-white">

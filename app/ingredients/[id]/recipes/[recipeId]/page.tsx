@@ -59,7 +59,7 @@ async function RecipeDetailContent({
       <PlaceholderPhoto
         emoji={recipe.emoji}
         label={`${recipe.name} 완성 사진`}
-        className="mx-auto mt-2 size-56 rounded-full border-8 border-white text-7xl shadow-sm"
+        className="mx-auto mt-2 size-56 rounded-full border-8 border-white text-9xl shadow-sm"
         bgClassName="bg-card-6"
       />
 
