@@ -1,8 +1,38 @@
 @import "tailwindcss";
 
+/*
+ * 아래 색상 값은 피그마 디자인이 오기 전까지 시안 이미지를 보고 눈대중으로 추정한 값입니다.
+ * 실제 피그마 디자인이 도착하면 이 토큰들의 값만 교체하면 됩니다 (CLAUDE.md 3번 규칙).
+ */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1f2a22;
+
+  --color-brand-900: #1e3a2b;
+  --color-brand-600: #2f6b45;
+  --color-brand-100: #e7f3e5;
+
+  --color-accent: #c1604a;
+  --color-accent-100: #f3ddd3;
+
+  --color-cream: #f7eedc;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f1e8;
+
+  --color-ink: #1f2a22;
+  --color-ink-muted: #6b7280;
+  --color-line: #e8e3da;
+
+  --color-card-1: #e8f3e4;
+  --color-card-2: #e3eedd;
+  --color-card-3: #dce7ea;
+  --color-card-4: #fbe1e1;
+  --color-card-5: #fbe6cf;
+  --color-card-6: #f2e6d1;
+  --color-card-7: #e6e2dc;
+  --color-card-8: #faf0c6;
+  --color-card-9: #e1efdb;
+  --color-card-10: #f7e1ce;
 }
 
 @theme inline {
@@ -10,17 +40,36 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-900: var(--color-brand-900);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-100: var(--color-brand-100);
+
+  --color-accent: var(--color-accent);
+  --color-accent-100: var(--color-accent-100);
+
+  --color-cream: var(--color-cream);
+  --color-surface: var(--color-surface);
+  --color-surface-muted: var(--color-surface-muted);
+
+  --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
+  --color-line: var(--color-line);
+
+  --color-card-1: var(--color-card-1);
+  --color-card-2: var(--color-card-2);
+  --color-card-3: var(--color-card-3);
+  --color-card-4: var(--color-card-4);
+  --color-card-5: var(--color-card-5);
+  --color-card-6: var(--color-card-6);
+  --color-card-7: var(--color-card-7);
+  --color-card-8: var(--color-card-8);
+  --color-card-9: var(--color-card-9);
+  --color-card-10: var(--color-card-10);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
