@@ -1,5 +1,6 @@
 import { BackLink } from "@/components/BackLink";
 import { PlaceholderPhoto } from "@/components/PlaceholderPhoto";
+import { IngredientIcon } from "@/components/IngredientIcon";
 import type { Ingredient } from "@/lib/types";
 
 const ALL_MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
@@ -20,7 +21,7 @@ export function IngredientDetailHeader({ ingredient, month }: IngredientDetailHe
 
       <div className="mt-2 flex flex-col items-center gap-1 text-center">
         <PlaceholderPhoto
-          emoji={ingredient.emoji}
+          emoji={<IngredientIcon ingredient={ingredient} />}
           label={`${ingredient.name} 사진`}
           className="flex size-24 items-center justify-center text-6xl"
         />

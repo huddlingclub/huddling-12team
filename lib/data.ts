@@ -325,7 +325,7 @@ export const RECIPES: Recipe[] = [
     name: "귤 피클",
     kcal: 60,
     servings: "1인분",
-    emoji: "🥒",
+    emoji: "🫙",
     ingredientsUsed: [
       { name: "귤", amount: "2개" },
       { name: "식초", amount: "3큰술" },
