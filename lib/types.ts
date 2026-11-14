@@ -11,6 +11,8 @@ export type Ingredient = {
   seasonLabel: string;
   /** 사진 대신 쓰는 임시 이모지 (실제 사진은 Figma 디자인 확정 후 교체) */
   emoji: string;
+  /** 메인 화면 카드에 쓰는 그림 경로 (public 폴더 기준). 없으면 emoji/아이콘을 대신 보여줘요 */
+  image?: string;
   /** 메인 화면 카드 배경색 토큰 (app/globals.css의 @theme 참고) */
   cardColor: string;
 };

@@ -11,6 +11,7 @@ export const INGREDIENTS: Ingredient[] = [
     months: [10, 11, 12],
     seasonLabel: "제철 10~12월",
     emoji: "🥕",
+    image: "/images/ingredients/radish.svg",
     cardColor: "bg-card-1",
   },
   {
@@ -20,6 +21,7 @@ export const INGREDIENTS: Ingredient[] = [
     months: [10, 11, 12],
     seasonLabel: "제철 10~12월",
     emoji: "🥬",
+    image: "/images/ingredients/napa-cabbage.svg",
     cardColor: "bg-card-2",
   },
   {
@@ -29,6 +31,7 @@ export const INGREDIENTS: Ingredient[] = [
     months: [10, 11, 12, 1, 2],
     seasonLabel: "제철 10월~2월",
     emoji: "🦪",
+    image: "/images/ingredients/oyster.svg",
     cardColor: "bg-card-3",
   },
   {
@@ -56,6 +59,7 @@ export const INGREDIENTS: Ingredient[] = [
     months: [10, 11, 12],
     seasonLabel: "제철 10~12월",
     emoji: "🪷",
+    image: "/images/ingredients/lotus-root.svg",
     cardColor: "bg-card-6",
   },
   {
@@ -65,6 +69,7 @@ export const INGREDIENTS: Ingredient[] = [
     months: [10, 11, 12, 1],
     seasonLabel: "제철 10월~1월",
     emoji: "🐚",
+    image: "/images/ingredients/cockle.svg",
     cardColor: "bg-card-7",
   },
   {
