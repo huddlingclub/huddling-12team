@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import type { Ingredient } from "@/lib/types";
 
 // 식재료 이미지를 테두리 없는 평면 일러스트(SVG)로 그려요.
@@ -130,10 +131,23 @@ const ILLUSTRATIONS: Record<string, ReactNode> = {
 };
 
 type IngredientIconProps = {
-  ingredient: Pick<Ingredient, "id" | "emoji">;
+  ingredient: Pick<Ingredient, "id" | "name" | "emoji" | "image">;
 };
 
 export function IngredientIcon({ ingredient }: IngredientIconProps) {
+  // 메인 카드와 같은 그림 파일이 있으면 그걸 먼저 보여줘요.
+  if (ingredient.image) {
+    return (
+      <Image
+        src={ingredient.image}
+        alt={ingredient.name}
+        width={800}
+        height={800}
+        className="inline-block size-[1em] object-contain"
+      />
+    );
+  }
+
   const illustration = ILLUSTRATIONS[ingredient.id];
 
   if (!illustration) {
