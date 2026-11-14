@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { COPY } from "@/lib/copy";
 
 type MonthHeaderProps = {
   month: number;
@@ -31,7 +32,7 @@ export function MonthHeader({ month }: MonthHeaderProps) {
       </div>
 
       <p className="mt-4 text-7xl font-extrabold leading-none text-accent">{month}</p>
-      <h1 className="mt-3 text-2xl font-bold text-ink">{month}월, 가장 맛있는 것들</h1>
+      <h1 className="mt-3 text-2xl font-bold text-ink">{COPY.mainTitle}</h1>
     </header>
   );
 }

@@ -4,6 +4,7 @@ import { MonthHeader } from "@/components/MonthHeader";
 import { IngredientCard } from "@/components/IngredientCard";
 import { EmptyState } from "@/components/EmptyState";
 import { getIngredientsByMonth } from "@/lib/data";
+import { COPY, fillCopy } from "@/lib/copy";
 
 export default function Home(props: PageProps<"/">) {
   return (
@@ -37,12 +38,14 @@ async function HomeContent({
 
       <main className="flex flex-1 flex-col gap-4 px-5 pt-8">
         <div className="flex items-center justify-between">
-          <h2 className="text-base font-bold text-ink">{month}월 제철 식재료</h2>
+          <h2 className="text-base font-bold text-ink">
+            {fillCopy(COPY.sectionIngredients, { m: month })}
+          </h2>
           <span className="text-sm text-ink-muted">{ingredients.length}가지</span>
         </div>
 
         {ingredients.length === 0 ? (
-          <EmptyState message="이 달 식재료는 아직 준비 중이에요" />
+          <EmptyState message={fillCopy(COPY.emptyMonth, { m: month })} />
         ) : (
           <div className="grid grid-cols-3 gap-2.5">
             {ingredients.map((ingredient) => (

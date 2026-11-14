@@ -7,6 +7,7 @@ import { IngredientInfoCallout } from "@/components/IngredientInfoCallout";
 import { RecipeStepList } from "@/components/RecipeStepList";
 import { OtherRecipeRow } from "@/components/OtherRecipeRow";
 import { cardColorAt } from "@/lib/colors";
+import { COPY } from "@/lib/copy";
 import { getIngredientById, getRecipeById, getRecipesByIngredientId } from "@/lib/data";
 import Link from "next/link";
 
@@ -75,7 +76,7 @@ async function RecipeDetailContent({
         <IngredientInfoCallout ingredient={ingredient} month={month} />
 
         <section>
-          <h2 className="text-lg font-bold text-ink">재료</h2>
+          <h2 className="text-lg font-bold text-ink">{COPY.sectionParts}</h2>
           <ul className="mt-2 flex flex-col">
             {recipe.ingredientsUsed.map((line) => (
               <li
@@ -90,7 +91,7 @@ async function RecipeDetailContent({
         </section>
 
         <section>
-          <h2 className="text-lg font-bold text-ink">만드는 법</h2>
+          <h2 className="text-lg font-bold text-ink">{COPY.sectionSteps}</h2>
           <div className="mt-3">
             <RecipeStepList steps={recipe.steps} />
           </div>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BackLink } from "@/components/BackLink";
 import { PlaceholderPhoto } from "@/components/PlaceholderPhoto";
 import { IngredientIcon } from "@/components/IngredientIcon";
+import { COPY, fillCopy } from "@/lib/copy";
 import type { Ingredient } from "@/lib/types";
 
 const ALL_MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
@@ -16,7 +17,9 @@ export function IngredientDetailHeader({ ingredient, month }: IngredientDetailHe
     <header className="px-5 pb-6 pt-4">
       <div className="grid grid-cols-[44px_1fr_44px] items-center">
         <BackLink href={`/?month=${month}`} label="메인으로 돌아가기" variant="onPhoto" />
-        <p className="text-center text-sm font-semibold text-ink">{month}월 제철</p>
+        <p className="text-center text-sm font-semibold text-ink">
+          {fillCopy(COPY.detailTop, { m: month })}
+        </p>
         <span />
       </div>
 
@@ -42,7 +45,7 @@ export function IngredientDetailHeader({ ingredient, month }: IngredientDetailHe
         <p className="text-sm text-ink-muted">{ingredient.description}</p>
         <span className="mt-1 inline-flex items-center gap-1.5 rounded-full bg-brand-900 px-4 py-1.5 text-sm font-semibold text-white">
           <span aria-hidden="true">●</span>
-          지금이 제철
+          {COPY.inSeasonChip}
         </span>
       </div>
 

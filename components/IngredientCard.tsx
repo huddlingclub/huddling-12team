@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlaceholderPhoto } from "@/components/PlaceholderPhoto";
 import { IngredientIcon } from "@/components/IngredientIcon";
+import { COPY } from "@/lib/copy";
 import type { Ingredient } from "@/lib/types";
 
 type IngredientCardProps = {
@@ -33,7 +34,7 @@ export function IngredientCard({ ingredient, month }: IngredientCardProps) {
       )}
       <p className="text-sm font-bold text-ink">{ingredient.name}</p>
       <p className="text-[11px] leading-tight text-ink-muted">{ingredient.description}</p>
-      <span className="text-[11px] font-semibold text-brand-600">레시피 보기 ›</span>
+      <span className="text-[11px] font-semibold text-brand-600">{COPY.cardButton}</span>
     </Link>
   );
 }

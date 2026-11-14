@@ -5,6 +5,7 @@ import { RecipeListItem } from "@/components/RecipeListItem";
 import { SectionHeading } from "@/components/SectionHeading";
 import { EmptyState } from "@/components/EmptyState";
 import { cardColorAt } from "@/lib/colors";
+import { COPY, fillCopy } from "@/lib/copy";
 import {
   getIngredientById,
   getLightestRecipeId,
@@ -48,10 +49,13 @@ async function IngredientDetailContent({
       <IngredientDetailHeader ingredient={ingredient} month={month} />
 
       <main className="flex flex-1 flex-col gap-4 rounded-t-3xl bg-surface-muted px-5 pb-10 pt-6">
-        <SectionHeading title={`${ingredient.name}로 이런 걸 만들 수 있어요`} badge="1인분" />
+        <SectionHeading
+          title={fillCopy(COPY.sectionRecipes, { name: ingredient.name })}
+          badge={COPY.kcalBasis}
+        />
 
         {recipes.length === 0 ? (
-          <EmptyState message="이 식재료의 레시피는 아직 준비 중이에요" />
+          <EmptyState message={COPY.emptyRecipes} subMessage={COPY.emptyRecipesSub} />
         ) : (
           <div className="flex flex-col gap-4">
             {recipes.map((recipe, index) => (

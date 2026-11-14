@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { IngredientIcon } from "@/components/IngredientIcon";
+import { COPY, fillCopy } from "@/lib/copy";
 import type { Ingredient } from "@/lib/types";
 
 type IngredientInfoCalloutProps = {
@@ -17,7 +18,9 @@ export function IngredientInfoCallout({ ingredient, month }: IngredientInfoCallo
         <IngredientIcon ingredient={ingredient} />
       </span>
       <div>
-        <p className="font-bold text-brand-900">{ingredient.name} · 지금이 제철이에요</p>
+        <p className="font-bold text-brand-900">
+          {fillCopy(COPY.infoBoxTitle, { name: ingredient.name })}
+        </p>
         <p className="text-xs text-ink-muted">
           {ingredient.seasonLabel} · {ingredient.description}
         </p>

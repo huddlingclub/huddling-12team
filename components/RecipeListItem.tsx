@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PlaceholderPhoto } from "@/components/PlaceholderPhoto";
+import { COPY } from "@/lib/copy";
 import type { Recipe } from "@/lib/types";
 
 type RecipeListItemProps = {
@@ -24,7 +25,7 @@ export function RecipeListItem({
     >
       {isLightest && (
         <span className="absolute -top-2 right-3 rounded-full bg-accent px-2 py-0.5 text-[11px] font-semibold text-white">
-          가장 가벼워요
+          {COPY.lightestBadge}
         </span>
       )}
 
