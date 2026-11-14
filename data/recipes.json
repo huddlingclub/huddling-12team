@@ -1,0 +1,47 @@
+[
+  {
+    "id": "radish-salad", "ingredientId": "radish", "name": "무생채", "image": null, "kcal": 45, "serving": "1인분",
+    "items": [{ "name": "무", "amount": "150g" }, { "name": "고춧가루", "amount": "1작은술" }, { "name": "식초", "amount": "1큰술" }, { "name": "올리고당", "amount": "1작은술" }],
+    "steps": [
+      { "text": "무는 얇게 채 썰어요.", "image": null },
+      { "text": "고춧가루로 먼저 버무려 색을 입혀요.", "image": null },
+      { "text": "식초와 올리고당을 넣고 가볍게 무쳐요.", "image": null }
+    ]
+  },
+  {
+    "id": "radish-namul", "ingredientId": "radish", "name": "들기름 무나물", "image": null, "kcal": 60, "serving": "1인분",
+    "items": [{ "name": "무", "amount": "150g" }, { "name": "들기름", "amount": "1작은술" }, { "name": "다진 마늘", "amount": "1/2작은술" }, { "name": "소금", "amount": "약간" }],
+    "steps": [
+      { "text": "무는 채 썰어요.", "image": null },
+      { "text": "팬에 들기름을 두르고 무와 마늘을 볶아요.", "image": null },
+      { "text": "물을 조금 넣고 무가 부드러워지면 소금으로 간해요.", "image": null }
+    ]
+  },
+  {
+    "id": "spicy-braised-radish", "ingredientId": "radish", "name": "매콤 무조림", "image": null, "kcal": 95, "serving": "1인분",
+    "items": [{ "name": "무", "amount": "200g" }, { "name": "간장", "amount": "1큰술" }, { "name": "고춧가루", "amount": "1작은술" }, { "name": "대파", "amount": "1/4대" }],
+    "steps": [
+      { "text": "무는 도톰하게 썰어요.", "image": null },
+      { "text": "냄비에 무와 양념, 물을 넣고 끓여요.", "image": null },
+      { "text": "국물이 졸아들면 대파를 올려 마무리해요.", "image": null }
+    ]
+  },
+  {
+    "id": "beef-radish-soup", "ingredientId": "radish", "name": "맑은 소고기뭇국", "image": null, "kcal": 120, "serving": "1인분",
+    "items": [{ "name": "무", "amount": "200g" }, { "name": "소고기 양지", "amount": "80g" }, { "name": "대파", "amount": "1/2대" }, { "name": "다진 마늘", "amount": "1작은술" }, { "name": "국간장", "amount": "1큰술" }],
+    "steps": [
+      { "text": "무는 나박나박 얇게 썰어요.", "image": null },
+      { "text": "소고기를 먼저 볶다가 무를 넣고 함께 볶아요.", "image": null },
+      { "text": "물을 붓고 무가 투명해질 때까지 끓인 뒤 국간장으로 간을 맞춰요.", "image": null }
+    ]
+  },
+  {
+    "id": "radish-rice", "ingredientId": "radish", "name": "무밥", "image": null, "kcal": 280, "serving": "1인분",
+    "items": [{ "name": "쌀", "amount": "1/2컵" }, { "name": "무", "amount": "100g" }, { "name": "양념간장", "amount": "1큰술" }],
+    "steps": [
+      { "text": "쌀은 씻어서 30분 불려요.", "image": null },
+      { "text": "무를 채 썰어 쌀 위에 올리고 밥을 지어요.", "image": null },
+      { "text": "양념간장을 곁들여 비벼 먹어요.", "image": null }
+    ]
+  }
+]

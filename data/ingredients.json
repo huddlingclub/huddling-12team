@@ -1,0 +1,12 @@
+[
+  { "id": "radish", "name": "무", "image": null, "months": [11, 12], "tone": "green" },
+  { "id": "napa-cabbage", "name": "배추", "image": null, "months": [11, 12], "tone": "lime" },
+  { "id": "oyster", "name": "굴", "image": null, "months": [11, 12, 1, 2], "tone": "sky" },
+  { "id": "apple", "name": "사과", "image": null, "months": [10, 11], "tone": "rose" },
+  { "id": "tangerine", "name": "귤", "image": null, "months": [11, 12, 1], "tone": "orange" },
+  { "id": "lotus-root", "name": "연근", "image": null, "months": [11, 12], "tone": "sand" },
+  { "id": "cockle", "name": "꼬막", "image": null, "months": [11, 12, 1, 2], "tone": "brown" },
+  { "id": "yuzu", "name": "유자", "image": null, "months": [11, 12], "tone": "yellow" },
+  { "id": "spinach", "name": "시금치", "image": null, "months": [11, 12, 1, 2], "tone": "mint" },
+  { "id": "sweet-persimmon", "name": "단감", "image": null, "months": [10, 11], "tone": "peach" }
+]
